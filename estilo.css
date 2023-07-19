@@ -1,10 +1,32 @@
+body{
+    background-color:rgb(223, 238, 238);
+}
 .texto {
     color:darkgreen;
     text-shadow: rgb(40, 146, 44) 1px 0 10px;
 }
-
-
 img{
-    border:3px solid rgb(14, 113, 179);
+    border:5px solid rgb(219, 189, 240);
 }
+.container{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.accion {
+    color:rgb(77, 153, 153);
+}
+.scifi {
+    color: rgb(243, 180, 199);
+}
+.comedia {
+    color: rgb(146, 106, 106);
+}
+
 
